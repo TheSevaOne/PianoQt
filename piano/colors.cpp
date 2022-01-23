@@ -9,16 +9,6 @@ void MainWindow::on_2_clicked()
 }
 
 
-
-
-
-
-
-
-
-
-
-
 void MainWindow::on_3_clicked()
 {
  // ui->centralWidget->setStyleSheet("background-color:qlineargradient(spread:pad, x1:0.664709, y1:0.705, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(110, 110, 110, 255));");
