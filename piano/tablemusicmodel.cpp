@@ -10,14 +10,6 @@ TableMusicModel::TableMusicModel() : data(new TableMusicModelData)
 {
 
 
-
-
-
-
-
-
-
-
 }
 
 
@@ -26,8 +18,6 @@ TableMusicModel::TableMusicModel(const TableMusicModel &rhs) : data(rhs.data)
 {
 
 }
-
-
 
 
 TableMusicModel &TableMusicModel::operator=(const TableMusicModel &rhs)
