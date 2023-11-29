@@ -5,14 +5,10 @@
 
 class Sounds
 {
-
 public:
 
     Sounds();
-
-
     void setSound (int sound);
-
     QString files[61];
 
 };
