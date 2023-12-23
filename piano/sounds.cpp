@@ -3,7 +3,7 @@
 
 Sounds::Sounds()
 {
-    Sounds::setSound (1);
+    Sounds::setSound(1);
 }
 
 

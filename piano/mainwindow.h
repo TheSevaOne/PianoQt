@@ -36,42 +36,30 @@ public:
 private slots:
     void test() {qDebug() << "test";}
 
-    void onPushButtonPressed(quint8 key);
-    void onPushButtonReleased(quint8 key);
-
     void keyPressEvent(QKeyEvent *event);
 
     void keyReleaseEvent(QKeyEvent *event);
     void on_pushButton_C1_pressed();
 
-
     void on_pushButton_CS1_pressed();
 
     void on_pushButton_D1_pressed();
 
-
     void on_pushButton_DS1_pressed();
-
 
     void on_pushButton_E1_pressed();
 
-
     void on_pushButton_F1_pressed();
-
 
     void on_pushButton_FS1_pressed();
 
     void on_pushButton_G1_pressed();
 
-
     void on_pushButton_GS1_pressed();
 
     void on_pushButton_A1_pressed();
 
-
-
     void on_pushButton_AS1_pressed();
-
 
     void on_pushButton_B1_pressed();
 
@@ -79,18 +67,13 @@ private slots:
 
     void on_pushButton_CS2_pressed();
 
-
     void on_pushButton_D2_pressed();
-
 
     void on_pushButton_DS2_pressed();
 
-
     void on_pushButton_E2_pressed();
 
-
     void on_pushButton_F2_pressed();
-
 
     void on_pushButton_FS2_pressed();
 
@@ -98,71 +81,53 @@ private slots:
 
     void on_pushButton_GS2_pressed();
 
-
     void on_pushButton_A2_pressed();
-
 
     void on_pushButton_AS2_pressed();
 
-
     void on_pushButton_B2_pressed();
+
     void on_pushButton_C3_pressed();
 
     void on_pushButton_CS3_pressed();
 
     void on_pushButton_D3_pressed();
 
-
     void on_pushButton_DS3_pressed();
-
 
     void on_pushButton_E3_pressed();
 
     void on_pushButton_F3_pressed();
 
-
     void on_pushButton_FS3_pressed();
 
     void on_pushButton_G3_pressed();
 
-
     void on_pushButton_GS3_pressed();
-
 
     void on_pushButton_A3_pressed();
 
     void on_pushButton_AS3_pressed();
 
-
     void on_pushButton_B3_pressed();
-
 
     void on_pushButton_C4_pressed();
 
-
     void on_pushButton_CS4_pressed();
-
 
     void on_pushButton_D4_pressed();
 
-
     void on_pushButton_DS4_pressed();
-
 
     void on_pushButton_E4_pressed();
 
-
     void on_pushButton_F4_pressed();
-
 
     void on_pushButton_FS4_pressed();
 
-
     void on_pushButton_G4_pressed();
 
-
     void on_pushButton_GS4_pressed();
-
 
     void on_pushButton_A4_pressed();
 
@@ -170,25 +135,19 @@ private slots:
 
     void on_pushButton_B4_pressed();
 
-
     void on_pushButton_C5_pressed();
-
 
     void on_pushButton_CS5_pressed();
 
-
     void on_pushButton_D5_pressed();
-
 
     void on_pushButton_DS5_pressed();
 
     void on_pushButton_E5_pressed();
 
-
     void on_pushButton_F5_pressed();
 
     void on_pushButton_FS5_pressed();
-
 
     void on_pushButton_G5_pressed();
 
@@ -196,9 +155,7 @@ private slots:
 
     void on_pushButton_A5_pressed();
 
-
     void on_pushButton_AS5_pressed();
-
 
     void on_pushButton_B5_pressed();
 
@@ -234,7 +191,7 @@ private slots:
    
 
     void on_2_clicked();
-   
+
 
     void on_3_clicked();
 
@@ -259,18 +216,6 @@ private slots:
     void on_pushButton_Play_clicked();
 
     void on_pushButton_8_clicked();
-
-
-
-
-
-
-
-
-
-
-
-
 
     void on_tableView_clicked(const QModelIndex &index);
 
@@ -340,11 +285,6 @@ private slots:
 
 
 
-
-
-
-
-
     void on_pushButton_C3_released();
 
     void on_pushButton_CS3_released();
@@ -368,15 +308,6 @@ private slots:
     void on_pushButton_AS3_released();
 
     void on_pushButton_B3_released();
-
-
-
-
-
-
-
-
-
 
 
     void on_pushButton_C4_released();
@@ -404,14 +335,6 @@ private slots:
     void on_pushButton_B4_released();
 
 
-
-
-
-
-
-
-
-
     void on_pushButton_C5_released();
 
     void on_pushButton_CS5_released();
@@ -437,61 +360,30 @@ private slots:
     void on_pushButton_B5_released();
 
 
-
-
     void on_pushButton_C6_released();
 
-
-
-
-
-
-
-
     void on_pushButton_2_clicked();
-
-    void on_groupBox_3_clicked();
 
     void on_pushButton_4_clicked();
 
     void on_pushButton_3_clicked();
 
-    void on_pushButton_5_pressed();
-
     void on_pushButton_5_clicked();
-
-    void on_pushButton_6_pressed();
 
     void on_pushButton_6_clicked();
 
+
+
 private:
     Ui::MainWindow *ui;
-
     Sounds* samples;
-  NewWindow* musicSheet;
-
-
+    NewWindow* musicSheet;
     QAudioRecorder* recorder;
-
-
     QAudioEncoderSettings audioSettings;
-
-
     QString recording;
-
     QMediaPlayer* playRecording;
-
-
     QMediaPlayer* players;
-
-
-QTimer* Timer;
-
-
-
     int whichPlayer;
-
-
     int volume;
     int speed;
     QTableWidget * tableWidget;
