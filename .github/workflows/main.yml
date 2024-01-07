@@ -9,15 +9,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+
+    - name: Setup QEMU
+      uses: actions/setup-qemu-action@v2
+
+    - name: Setup Buildx
+      uses: actions/setup-buildx-action@v1
 
     - name: Install Qt
-      uses: francoislavergne/qt-build-action@v2
-      with:
-        qt-version: '5.15.2'
-        architecture: 'x64'
-        os: 'ubuntu'
+      run: |
+        curl -L https://download.qt.io/official_releases/qt/5.15/5.15.2/qt-opensource-linux-x64-5.15.2.run -o qt.run
+        chmod +x qt.run
+        ./qt.run --platform minimal --no-x11 --no-ltcg --no-compile-examples --accept-license
+
+    - name: Clone repository
+      uses: actions/checkout@v2
 
     - name: Build project
-      run: qmake && make -j$(nproc)
+      run: |
+           ls -la
+           pwd
+           qmake && make -j$(nproc)
