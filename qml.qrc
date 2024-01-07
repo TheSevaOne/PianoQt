@@ -1,0 +1,330 @@
+<RCC>
+   
+<qresource prefix="/icons">
+        <file alias="rec.png">Images/rec.png</file>
+        <file alias="stop.png">Images/stop.png</file>
+        <file alias="recon.png">Images/recon.png</file>
+        <file alias="pause.png">Images/pause.png</file>
+        <file alias="off.png">Images/off.png</file>
+</qresource>
+
+
+
+ <qresource prefix="/audio">
+        <file>Samples/Guitar/Sound L5-25.mp3</file>
+        <file>Samples/Guitar/Sound L5-31.mp3</file>
+        <file>Samples/Guitar/Sound L5-42.mp3</file>
+        <file>Samples/Guitar/Sound L5-30.mp3</file>
+        <file>Samples/Guitar/Sound 47 L3.mp3</file>
+        <file>Samples/Guitar/Sound L5-7.mp3</file>
+        <file>Samples/Guitar/Sound L5-9.mp3</file>
+        <file>Samples/Guitar/Sound L5-35.mp3</file>
+        <file>Samples/Guitar/Sound L5-10.mp3</file>
+        <file>Samples/Guitar/Sound L5-18.mp3</file>
+        <file>Samples/Guitar/Sound L5-32.mp3</file>
+        <file>Samples/Guitar/Sound L5-1.mp3</file>
+        <file>Samples/Guitar/Sound L5-29.mp3</file>
+        <file>Samples/Guitar/Sound L5-39.mp3</file>
+        <file>Samples/Guitar/Sound L5-40.mp3</file>
+        <file>Samples/Guitar/Sound L5-45.mp3</file>
+        <file>Samples/Guitar/Sound L5-33.mp3</file>
+        <file>Samples/Guitar/Sound 45 L3.mp3</file>
+        <file>Samples/Guitar/Sound L5-15.mp3</file>
+        <file>Samples/Guitar/Sound L5-19.mp3</file>
+        <file>Samples/Guitar/Sound L5-13.mp3</file>
+        <file>Samples/Guitar/Sound L5-38.mp3</file>
+        <file>Samples/Guitar/Sound L5-26.mp3</file>
+        <file>Samples/Guitar/Sound L5-21.mp3</file>
+        <file>Samples/Guitar/Sound L5-37.mp3</file>
+        <file>Samples/Guitar/Sound L5-24.mp3</file>
+        <file>Samples/Guitar/Sound L5-23.mp3</file>
+        <file>Samples/Guitar/Sound L5-11.mp3</file>
+        <file>Samples/Guitar/Sound L5-14.mp3</file>
+        <file>Samples/Guitar/Sound L5-27.mp3</file>
+        <file>Samples/Guitar/Sound L5-6.mp3</file>
+        <file>Samples/Guitar/Sound L5-36.mp3</file>
+        <file>Samples/Guitar/Sound 46 L3.mp3</file>
+        <file>Samples/Guitar/Sound L5-8.mp3</file>
+        <file>Samples/Guitar/Sound L5-4.mp3</file>
+        <file>Samples/Guitar/Sound L5-22.mp3</file>
+        <file>Samples/Guitar/Sound L5-44.mp3</file>
+        <file>Samples/Guitar/Sound L5-3.mp3</file>
+        <file>Samples/Guitar/Sound L5-20.mp3</file>
+        <file>Samples/Guitar/Sound L5-41.mp3</file>
+        <file>Samples/Guitar/Sound L5-16.mp3</file>
+        <file>Samples/Guitar/Sound L5-43.mp3</file>
+        <file>Samples/Guitar/Sound L5-34.mp3</file>
+        <file>Samples/Guitar/Sound L5-28.mp3</file>
+        <file>Samples/Guitar/Sound L5-12.mp3</file>
+        <file>Samples/Guitar/Sound L5-17.mp3</file>
+        <file>Samples/Guitar/Sound L5-2.mp3</file>
+        <file>Samples/Guitar/Sound L5-5.mp3</file>
+        <file>Samples/Piano/emo_dn_60.mp3</file>
+        <file>Samples/Piano/emo_dn_24.mp3</file>
+        <file>Samples/Piano/emo_dn_27.mp3</file>
+        <file>Samples/Piano/emo_dn_46.mp3</file>
+        <file>Samples/Piano/emo_dn_77.mp3</file>
+        <file>Samples/Piano/emo_dn_23.mp3</file>
+        <file>Samples/Piano/emo_dn_57.mp3</file>
+        <file>Samples/Piano/emo_dn_25.mp3</file>
+        <file>Samples/Piano/emo_dn_72.mp3</file>
+        <file>Samples/Piano/emo_dn_49.mp3</file>
+        <file>Samples/Piano/emo_dn_62.mp3</file>
+        <file>Samples/Piano/emo_dn_36.mp3</file>
+        <file>Samples/Piano/emo_dn_71.mp3</file>
+        <file>Samples/Piano/emo_dn_48.mp3</file>
+        <file>Samples/Piano/emo_dn_75.mp3</file>
+        <file>Samples/Piano/emo_dn_44.mp3</file>
+        <file>Samples/Piano/emo_dn_55.mp3</file>
+        <file>Samples/Piano/emo_dn_68.mp3</file>
+        <file>Samples/Piano/emo_dn_67.mp3</file>
+        <file>Samples/Piano/emo_dn_74.mp3</file>
+        <file>Samples/Piano/emo_dn_29.mp3</file>
+        <file>Samples/Piano/emo_dn_70.mp3</file>
+        <file>Samples/Piano/emo_dn_18.mp3</file>
+        <file>Samples/Piano/emo_dn_45.mp3</file>
+        <file>Samples/Piano/emo_dn_30.mp3</file>
+        <file>Samples/Piano/emo_dn_39.mp3</file>
+        <file>Samples/Piano/emo_dn_16.mp3</file>
+        <file>Samples/Piano/emo_dn_21.mp3</file>
+        <file>Samples/Piano/emo_dn_19.mp3</file>
+        <file>Samples/Piano/emo_dn_35.mp3</file>
+        <file>Samples/Piano/emo_dn_50.mp3</file>
+        <file>Samples/Piano/emo_dn_53.mp3</file>
+        <file>Samples/Piano/emo_dn_17.mp3</file>
+        <file>Samples/Piano/emo_dn_63.mp3</file>
+        <file>Samples/Piano/emo_dn_51.mp3</file>
+        <file>Samples/Piano/emo_dn_20.mp3</file>
+        <file>Samples/Piano/emo_dn_32.mp3</file>
+        <file>Samples/Piano/emo_dn_52.mp3</file>
+        <file>Samples/Piano/emo_dn_73.mp3</file>
+        <file>Samples/Piano/emo_dn_61.mp3</file>
+        <file>Samples/Piano/emo_dn_56.mp3</file>
+        <file>Samples/Piano/emo_dn_76.mp3</file>
+        <file>Samples/Piano/emo_dn_66.mp3</file>
+        <file>Samples/Piano/emo_dn_42.mp3</file>
+        <file>Samples/Piano/emo_dn_58.mp3</file>
+        <file>Samples/Piano/emo_dn_26.mp3</file>
+        <file>Samples/Piano/emo_dn_59.mp3</file>
+        <file>Samples/Piano/emo_dn_28.mp3</file>
+        <file>Samples/Piano/emo_dn_34.mp3</file>
+        <file>Samples/Piano/emo_dn_54.mp3</file>
+        <file>Samples/Piano/emo_dn_69.mp3</file>
+        <file>Samples/Piano/emo_dn_64.mp3</file>
+        <file>Samples/Piano/emo_dn_47.mp3</file>
+        <file>Samples/Piano/emo_dn_31.mp3</file>
+        <file>Samples/Piano/emo_dn_33.mp3</file>
+        <file>Samples/Piano/emo_dn_40.mp3</file>
+        <file>Samples/Piano/emo_dn_22.mp3</file>
+        <file>Samples/Piano/emo_dn_38.mp3</file>
+        <file>Samples/Piano/emo_dn_37.mp3</file>
+        <file>Samples/Piano/emo_dn_43.mp3</file>
+        <file>Samples/Piano/emo_dn_41.mp3</file>
+        <file>Samples/Piano/emo_dn_65.mp3</file>
+        <file>Samples/Vibes/B1 VIBES.mp3</file>
+        <file>Samples/Vibes/D3 VIBES.mp3</file>
+        <file>Samples/Vibes/G1 VIBES.mp3</file>
+        <file>Samples/Vibes/B2 VIBES.mp3</file>
+        <file>Samples/Vibes/G#3 VIBES.mp3</file>
+        <file>Samples/Vibes/E2 VIBES.mp3</file>
+        <file>Samples/Vibes/D4 VIBES.mp3</file>
+        <file>Samples/Vibes/A#1 VIBES.mp3</file>
+        <file>Samples/Vibes/F2 VIBES.mp3</file>
+        <file>Samples/Vibes/C2 VIBES.mp3</file>
+        <file>Samples/Vibes/C#2 VIBES.mp3</file>
+        <file>Samples/Vibes/G2 VIBES.mp3</file>
+        <file>Samples/Vibes/A3 VIBES.mp3</file>
+        <file>Samples/Vibes/E4 VIBES.mp3</file>
+        <file>Samples/Vibes/C#4 VIBES.mp3</file>
+        <file>Samples/Vibes/D2 VIBES.mp3</file>
+        <file>Samples/Vibes/C#3 VIBES.mp3</file>
+        <file>Samples/Vibes/B3 VIBES.mp3</file>
+        <file>Samples/Vibes/F#2 VIBES.mp3</file>
+        <file>Samples/Vibes/F3 VIBES.mp3</file>
+        <file>Samples/Vibes/A#2 VIBES.mp3</file>
+        <file>Samples/Vibes/C4 VIBES.mp3</file>
+        <file>Samples/Vibes/G#1 VIBES.mp3</file>
+        <file>Samples/Vibes/E3 VIBES.mp3</file>
+        <file>Samples/Vibes/D#4 VIBES.mp3</file>
+        <file>Samples/Vibes/F#3 VIBES.mp3</file>
+        <file>Samples/Vibes/A2 VIBES.mp3</file>
+        <file>Samples/Vibes/A#3 VIBES.mp3</file>
+        <file>Samples/Vibes/G3 VIBES.mp3</file>
+        <file>Samples/Vibes/C3 VIBES.mp3</file>
+        <file>Samples/Vibes/F4 VIBES.mp3</file>
+        <file>Samples/Vibes/A1 VIBES.mp3</file>
+        <file>Samples/Vibes/D#2 VIBES.mp3</file>
+        <file>Samples/Vibes/G#2 VIBES.mp3</file>
+        <file>Samples/Vibes/D#3 VIBES.mp3</file>
+        <file>Samples/Glockenspiel/Angel_G3.mp3</file>
+        <file>Samples/Glockenspiel/Angel_F4.mp3</file>
+        <file>Samples/Glockenspiel/Angel_Gliss_Down_01.mp3</file>
+        <file>Samples/Glockenspiel/Angel_F3.mp3</file>
+        <file>Samples/Glockenspiel/Angel_F#4.mp3</file>
+        <file>Samples/Glockenspiel/Angel_B3.mp3</file>
+        <file>Samples/Glockenspiel/Angel_A#2.mp3</file>
+        <file>Samples/Glockenspiel/Angel_Gliss_Up_01.mp3</file>
+        <file>Samples/Glockenspiel/Angel_E3.mp3</file>
+        <file>Samples/Glockenspiel/Angel_D3.mp3</file>
+        <file>Samples/Glockenspiel/Angel_Gliss_Up_02.mp3</file>
+        <file>Samples/Glockenspiel/Angel_C#4.mp3</file>
+        <file>Samples/Glockenspiel/Angel_Gliss_Down_02.mp3</file>
+        <file>Samples/Glockenspiel/Angel_E4.mp3</file>
+        <file>Samples/Glockenspiel/Angel_C#3.mp3</file>
+        <file>Samples/Glockenspiel/Angel_G2.mp3</file>
+        <file>Samples/Glockenspiel/Angel_A3.mp3</file>
+        <file>Samples/Glockenspiel/Angel_D#3.mp3</file>
+        <file>Samples/Glockenspiel/Angel_G#2.mp3</file>
+        <file>Samples/Glockenspiel/Angel_A#3.mp3</file>
+        <file>Samples/Glockenspiel/Angel_F#3.mp3</file>
+        <file>Samples/Glockenspiel/Angel_A2.mp3</file>
+        <file>Samples/Glockenspiel/Angel_B2.mp3</file>
+        <file>Samples/Glockenspiel/Angel_G4.mp3</file>
+        <file>Samples/Glockenspiel/Angel_C3.mp3</file>
+        <file>Samples/Glockenspiel/Angel_D4.mp3</file>
+        <file>Samples/Glockenspiel/Angel_G#3.mp3</file>
+        <file>Samples/Glockenspiel/Angel_D#4.mp3</file>
+        <file>Samples/Glockenspiel/Angel_C4.mp3</file>
+        <file>Samples/Glockenspiel/Angel_Gliss_Up_03.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 D#3 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 D7 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 B6 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 G5 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 B1 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 C5 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 F#3 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 C#7 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 A6 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 F6 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 G#2 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 A#6 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 E1 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 E3 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 F1 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 F#5 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 A5 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 C4 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 D#7 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 B2 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 F2 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 A3 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 A2 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 B5 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 C#2 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 D5 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 G#5 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 D#2 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 G#6 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 E6 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 G2 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 F#2 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 F#1 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 D#5 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 A#2 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 E2 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 A#3 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 D#4 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 F#6 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 D#6 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 D3 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 D2 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 A#4 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 G#1 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 A1 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 G1 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 D6 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 C7 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 B3 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 G#4 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 C3 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 G#3 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 F#4 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 G3 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 C6 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 C#4 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 A#1 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 C#3 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 E4 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 F4 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 C2 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 E5 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 C#5 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 D4 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 A4 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 G4 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 G6 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 E7 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 F5 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 F3 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 C#6 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 B4 -11.mp3</file>
+        <file>Samples/Rhodes/RSP73 sus m3 A#5 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 C#2 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 D3 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 F4 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 A4 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 C#1 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m1 C1 -9.wav</file>
+        <file>Samples/Wurlitzer/WEP sus m3 G#5 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 G5 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 A#4 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 A#5 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 B5 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 E3 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 D#2 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 A5 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 F#4 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 C2 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 E1 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 A#0 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 C#3 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 B2 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 B4 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 G4 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 D#1 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 G#1 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 A#2 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 F1 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 F5 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 D#3 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 D4 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 F#2 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 C#5 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 D#5 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 G2 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 C4 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 A#3 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 E2 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 C3 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 F2 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 F#1 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 B1 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 C#4 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 A0 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 C5 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 G1 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 A2 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 F3 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 D#4 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 D1 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 G#3 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 B0 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 G#4 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 F#3 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 D2 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 A#1 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 D5 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 B3 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 C1 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 F#5 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 A3 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 G#2 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 G3 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 A1 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 E5 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 E4 -11.mp3</file>
+        <file>Samples/Wurlitzer/WEP sus m3 C6 -11.mp3</file>
+    </qresource>
+
+
+</RCC>
