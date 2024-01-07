@@ -1,0 +1,23 @@
+name: Qt Build Project
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install Qt
+      uses: eliassjogreen/install-qt-action@v1
+      with:
+        version: '5.15.2'
+        architecture: 'x64'
+
+    - name: Build project
+      run: qmake && make -j$(nproc)
