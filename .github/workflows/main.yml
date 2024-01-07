@@ -10,10 +10,7 @@ jobs:
 
     steps:
     - name: Install Qt
-      run: |
-        curl -L https://download.qt.io/official_releases/qt/5.15/5.15.2/qt-opensource-linux-x64-5.15.2.run -o qt.run
-        chmod +x qt.run
-        ./qt.run --platform minimal --no-x11 --no-ltcg --no-compile-examples --accept-license
+      uses: jurplel/install-qt-action@v3
 
     - name: Clone repository
       uses: actions/checkout@v2
