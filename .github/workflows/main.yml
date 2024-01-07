@@ -17,6 +17,7 @@ jobs:
       with:
         qt-version: '5.15.2'
         architecture: 'x64'
+        os: 'ubuntu'
 
     - name: Build project
       run: qmake && make -j$(nproc)
