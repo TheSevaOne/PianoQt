@@ -2,7 +2,7 @@ name: Qt Build Project
 
 on:
   push:
-    branches: [main]
+    branches: [master]
 
 jobs:
   build:
