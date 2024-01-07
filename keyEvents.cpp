@@ -7,9 +7,13 @@
 
 void MainWindow::keyPressEvent(QKeyEvent* event){
     switch (event->key()) {
+
+
     case 0x31: // 1
         MainWindow::on_pushButton_C1_pressed();
+
         break;
+
     case 0x21: // !
         MainWindow::on_pushButton_CS1_pressed();
         break;

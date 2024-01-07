@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2023-12-24T15:35:10
+# Project created by QtCreator 2013-09-17T13:27:40
 #
 #-------------------------------------------------
 
@@ -17,6 +17,7 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     sounds.cpp \
+    textbox.cpp \
     keyEvents.cpp \
     player.cpp \
     newwindow.cpp \

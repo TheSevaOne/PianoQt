@@ -239,4 +239,8 @@
 
 
 */
-
+void MainWindow::on_horizontalSlider_valueChanged(int value)
+{
+    qDebug() << value;
+    speed = value*10;
+}
