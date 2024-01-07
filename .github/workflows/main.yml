@@ -13,9 +13,9 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Install Qt
-      uses: eliassjogreen/install-qt-action@v1
+      uses: francoislavergne/qt-build-action@v2
       with:
-        version: '5.15.2'
+        qt-version: '5.15.2'
         architecture: 'x64'
 
     - name: Build project
