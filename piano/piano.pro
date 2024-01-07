@@ -17,6 +17,7 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     sounds.cpp \
+    textbox.cpp \
     keyEvents.cpp \
     player.cpp \
     newwindow.cpp \
